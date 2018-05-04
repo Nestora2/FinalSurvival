@@ -1,0 +1,81 @@
+
+.card-body, .card-header{
+  background-color: black;
+}
+
+.button{
+  background-color:  rgba(95, 95, 95, 0.462); 
+  padding: 12px 20px;
+  color: rgb(146, 75, 115);
+//   border-radius: 25px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.button:hover{
+    background:rgb(180, 37, 109);
+    color:#1AAB8A;
+
+     }
+
+     .button:before,button:after{
+        content:'';
+        position:absolute;
+        top:0;
+        right:0;
+        height:2px;
+        width:0;
+        background: #1AAB8A;
+        transition:400ms ease all;
+      }
+      .button:after{
+        right:inherit;
+        top:inherit;
+        left:0;
+        bottom:0;
+      }
+      .button:hover:before,button:hover:after{
+        width:100%;
+        transition:800ms ease all;
+      }
+
+
+
+// @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+.p{
+   background-color:  rgba(114, 81, 6, 0.715);
+//    font-family: 'Times New Roman', Times, serif
+padding: 30px;
+    border: 1px solid #4CAF50;
+    color:#fff;
+} 
+
+
+.p1{
+   background-color:   #A27510;
+   color:#fff;
+   transition:background 0.20s linear; 
+   padding: 30px;
+   border: 1px solid #4CAF50;
+}
+
+
+
+.p2{
+
+    background-color : #f06868;  
+   color:#fff;
+  
+    background: #ae7e47; 
+    transition:background 0.20s linear; 
+    padding: 30px;
+   border: 1px solid #4CAF50;
+} 
+
+.p3{
+    background-color:  #847761;
+    color:#fff;
+    transition:background 0.20s linear; 
+    padding: 30px;
+    border: 1px solid #4CAF50;
+ } 

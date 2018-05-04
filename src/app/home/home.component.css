@@ -1,0 +1,44 @@
+
+
+.display {
+    Letter-spacing: 0.3em;
+    color: #24849a ;
+    font-family: fantasy;
+    text-shadow: -1px -1px 1px rgb(120, 227, 53), 1px 1px 1px rgba(102, 197, 218, 0.873), -1px 1px 1px rgba(234, 15, 15, 0.359), 1px -1px 1px #000;
+   
+}
+
+
+.lead{
+    color: rgb(14, 181, 136) ; 
+    font-family: fantasy;
+    text-shadow: -3px -3px 3px #0000DF, 3px -3px 3px #0000DF, -3px 3px 3px #0000DF, 3px 3px 3px #0000DF;
+  
+}
+.button {
+    background-color: rgba(15, 17, 15, 0.686); /* Color de fondo en boton y transparencia */
+    border: none;
+    color: rgba(172, 8, 8, 0.918); /* Color de la letra */
+    padding: 15px 22px;
+    text-align: center;
+    margin-botton: 0px;
+    /* text-decoration: rgb(255, 208, 0) ; */
+    display: inline-block;
+    font-size: 20px;
+    border: 2px solid rgb(11, 213, 228); /* borde en el boton */
+    -webkit-transition-duration: 0.7s; /* transicion */
+    transition-duration: 0.10s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /* Efecto sombra */
+    width: 100%;  /*Tamaño del boton */
+    cursor: pointer;  /* Cursor */
+    font-weight:Helvetica;  /*Tipo de letra */
+    text-shadow: #15b882
+    
+}
+.button:hover {  /* hover es cuando seleccionas el color que cambie algo*/
+    background-color: rgba(228, 15, 15, 0.747); 
+    color: black;
+    transition: all 2s ease;
+    
+}
+

@@ -1,0 +1,65 @@
+
+
+.it-wrapper h1{
+    font-size:40px;
+	line-height: 50px;
+	padding: 30px 30px 40px;
+	color: rgba(255,255,255,0.1);
+    // font-family: 'Fascinate', 'Arial Narrow', Arial, sans-serif 
+    font-family: 'Jazz LET, fantasy' ;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.3);
+    
+
+background: 
+		linear-gradient(
+			left, 
+			rgba(105,94,127,0.54) 0%,
+			rgba(255,92,92,0.57) 15%,
+			rgba(255,160,17,0.59) 27%,
+			rgba(231, 214, 60, 0.61) 37%,
+			rgba(37, 224, 153, 0.63) 46%,
+			rgba(111,196,173,0.65) 58%,
+			rgba(106,132,186,0.67) 69%,
+			rgba(209,119,195,0.69) 79%,
+			rgba(216,213,125,0.7) 89%,
+			rgba(216,213,125,0.72) 100%
+		), 
+		repeating-linear-gradient(
+			-45deg, 
+			rgba(255,255,255,0.5), 
+			transparent 20px, 
+			rgba(255,255,255,0.3) 40px
+		);
+
+        background-size: 50% 70%;
+        background-position: center left, top left;
+        
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        
+        transition: all 1.8s linear;
+        
+        -moz-border-radius: 90px 15px;
+        -moz-box-shadow: 0px 0px 0px 10px rgba(255,255,255,0.4); 
+
+        
+    }
+
+    .list-group-flush, .list-group-item{
+        background-color: #886D7C;
+        color: #424B57;
+    }
+    
+
+.blockquote, .card-body
+{
+    background-color: #847761;
+    border-block-end-style: groove;
+   
+    
+}
+
+// .content{
+//     background-color: rgba(221, 153, 76, 0.342)
+// }

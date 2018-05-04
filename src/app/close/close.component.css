@@ -1,0 +1,33 @@
+
+.h1, h3, h2{
+   
+    color:rgb(149, 194, 59);
+    font-family: 'Trattatello';
+    text-shadow:  7px 5px 0px rgba(0,0,0,0.15);
+    letter-spacing: 3px;
+}
+
+.list-group-item{
+    background-color: #393939;
+    color: rgb(111, 151, 30);;
+}
+
+.ist-group-item:hover {
+    transform: rotateX(90deg) translateY(-22px);
+}
+
+
+.lista1 ul li a:hover {
+    transform: rotateX(90deg) translateY(-22px);
+}
+
+
+ 
+ 
+
+/* LIST #2 */
+#list2 { width:320px; }
+#list2 ol { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#07e6a3;  }
+#list2 ol li { }
+#list2 ol li p { padding:8px; font-style:normal; font-family:Arial; font-size:13px; color:rgb(14, 177, 241); border-left: 1px solid #999; }
+#list2 ol li p em { display:block; }

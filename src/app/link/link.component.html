@@ -1,0 +1,127 @@
+<!-- <ngb-accordion #acc="ngbAccordion">
+    <ngb-panel id="toggle-1" title="Initiative">
+      <ng-template ngbPanelContent>
+      <p class="p">
+    What's an Initiative?
+        Well by example if you want to sugest and xbox day but don't know how to get to know it well
+        Click on link and you cant submit your form .
+     
+      </p> 
+      <p> <a href="http://google.com'"  type="button" class="button" target="_blank">Google Again</a>
+      </p>
+        <a href="http://google.com'" target="_blank">Google Again</a> 
+       
+      </ng-template>
+    </ngb-panel>
+    <ngb-panel id="toggle-2" title="Create Ticket">
+      <ng-template ngbPanelContent>
+          <p class="p1">
+        My laptop is not working correctly but i don't know where to report that
+        Click on link and you'll find out also if you need some assistance.
+          </p>
+        <a href=" https://accentureinternal.service-now.com/technologysupport?id=support_topic_v2&catalog_sys_id=e0d08b13c3330100c8b837659bba8fb4&topic=0'"  type="button" class="button" target="_blank">Create Incident</a>
+      lklk
+        <a href=" https://accentureinternal.service-now.com/technologysupport?id=support_topic_v2&catalog_sys_id=e0d08b13c3330100c8b837659bba8fb4&topic=0" target="_blank">Nombre del link</a> 
+
+      </ng-template>
+    </ngb-panel>
+    <ngb-panel id="toggle-3" title="Holyday's">
+        <ng-template ngbPanelContent>
+       <p  class="p2">   Christma's eve is next week but i want to know if that's and official holiday 
+         Click here and you'll find out (Remember if you want to take day off that's depends completly on your proyect or client)
+        </p>
+         <a href="   https://policies.accenture.com/policy/0033 " type="button" class="button" target="_blank"> Holidays</a>
+       
+        </ng-template>
+      </ngb-panel>
+      <ngb-panel id="toggle-4" title="More Info">
+          <ng-template ngbPanelContent>
+              <p class="p3"> 
+                 Do you want to know about accenture? 
+           Click here
+              </p>
+           <a href="   https://portal.accenture.com/ " type="button" class="button" target="_blank"> Portal Accenture</a>
+            
+          </ng-template>
+        </ngb-panel>
+
+  </ngb-accordion>
+  
+  <hr/> -->
+  
+  
+  <p>
+      <button type="button" class="btn btn-outline-primary" (click)="isCollapsed = !isCollapsed"
+              [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample">
+              Initiative
+      </button>
+    </p>
+    <div id="collapseExample" [ngbCollapse]="isCollapsed">
+      <div class="card">
+        <div class="card-body">
+            <p class="p">
+                What's an Initiative?
+                    Well by example if you want to sugest and xbox day but don't know how to get to know it well
+                    Click on link and you cant submit your form .
+                 
+                  </p> 
+                  <p> <a href="http://google.com'"  type="button" class="button" target="_blank">Google Again</a>
+                  </p>
+        </div>
+      </div>
+    </div>
+    <p>
+        <button type="button" class="btn btn-outline-primary" (click)="isCollapsed = !isCollapsed"
+                [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample">
+          Create Ticket
+        </button>
+      </p>
+      <div id="collapseExample" [ngbCollapse]="isCollapsed">
+        <div class="card">
+          <div class="card-body">
+              <p class="p1">
+                  My laptop is not working correctly but i don't know where to report that
+                  Click on link and you'll find out also if you need some assistance.
+                    </p>
+                  <a href=" https://accentureinternal.service-now.com/technologysupport?id=support_topic_v2&catalog_sys_id=e0d08b13c3330100c8b837659bba8fb4&topic=0'"  type="button" class="button" target="_blank">Create Incident</a>
+               
+          </div>
+        </div>
+      </div>
+      <p>
+          <button type="button" class="btn btn-outline-primary" (click)="isCollapsed = !isCollapsed"
+                  [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample">
+            Holiday's
+          </button>
+        </p>
+        <div id="collapseExample" [ngbCollapse]="isCollapsed">
+          <div class="card">
+            <div class="card-body">
+                <p  class="p2">   Christma's eve is next week but i want to know if that's and official holiday 
+                    Click here and you'll find out (Remember if you want to take day off that's depends completly on your proyect or client)
+                   </p>
+                    <a href="   https://policies.accenture.com/policy/0033 " type="button" class="button" target="_blank"> Holidays</a>
+                  
+            </div>
+          </div>
+        </div>
+        <p>
+            <button type="button" class="btn btn-outline-primary" (click)="isCollapsed = !isCollapsed"
+                    [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample">
+              More Info
+            </button>
+          </p>
+          <div id="collapseExample" [ngbCollapse]="isCollapsed">
+            <div class="card">
+              <div class="card-body">
+                  <p class="p3"> 
+                      Do you want to know about accenture? 
+                Click here
+                   </p>
+                <a href="   https://portal.accenture.com/ " type="button" class="button" target="_blank"> Portal Accenture</a>
+              
+              </div>
+            </div>
+          </div>
+
+          
