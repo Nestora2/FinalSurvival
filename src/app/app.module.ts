@@ -29,7 +29,6 @@ import { LinkComponent } from './link/link.component';
     NgbModule.forRoot(),
     AppRoutingModule,
    //ContractorRoutingModule,
-    // PanelRoutingModule,
     // ContenidoRoutingModule,
     // CloseRoutingModule,
     // HomeRoutingModule,
